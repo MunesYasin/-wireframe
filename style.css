@@ -1,0 +1,56 @@
+* {
+  margin: 10px;
+}
+ 
+header{
+
+  display: grid;
+  
+  grid-template-columns: 30% auto ;
+}
+
+header nav p {
+
+display: inline-block;
+
+}
+
+#photo{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+
+}
+#paragraph{
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+
+  article{
+    align-items: center;
+    grid-template-rows: 20% 60% 20%;
+    display: grid;}
+
+    article p {
+      height: 250px;
+      font-size: 25px;
+      overflow-y: auto;
+
+      }
+
+      article button {
+        height: 25px;
+        width: 150;
+        border-radius: 10px;
+        float: left;
+        text-align: center;
+    }
+    button:hover{
+      background-color: rgb(151, 17, 17);
+  }
+
+  footer { 
+    display: block;
+    height: 50px;
+    width: auto;
+    background-color: rgb(66, 226, 17);
+}
