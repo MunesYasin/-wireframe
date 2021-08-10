@@ -1,23 +1,36 @@
 * {
   margin: 10px;
 }
- 
+ body{
+
+margin: 20px;
+ }
+
+#img1{
+  margin-left: 4.2cm;
+}
+
 header{
 
   display: grid;
-  
-  grid-template-columns: 30% auto ;
+  background-color: rgb(143, 130, 130);
+  grid-template-columns: auto auto auto auto auto ;
 }
 
-header nav p {
+header nav  {
 
-display: inline-block;
+display: flex;
+position: relative;
+top:  .7cm;
+
 
 }
 
 #photo{
   display: grid;
   grid-template-columns: auto auto auto ;
+  justify-content: space-between;
+  
 
 }
 #paragraph{
@@ -39,7 +52,7 @@ display: inline-block;
 
       article button {
         height: 25px;
-        width: 150;
+        width: 50;
         border-radius: 10px;
         float: left;
         text-align: center;
@@ -52,5 +65,15 @@ display: inline-block;
     display: block;
     height: 50px;
     width: auto;
-    background-color: rgb(66, 226, 17);
+    background-color: rgb(11, 12, 11);
 }
+ main{
+   
+   margin-left: 150px;
+   margin-right: 150px;
+ }
+ #hero{
+   width: 98.4%;
+ 
+ }
+
